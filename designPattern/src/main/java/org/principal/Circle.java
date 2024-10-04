@@ -1,4 +1,4 @@
-package org.principal.openClosed;
+package org.principal;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;

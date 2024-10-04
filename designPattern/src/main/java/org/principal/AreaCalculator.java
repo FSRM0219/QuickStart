@@ -1,4 +1,4 @@
-package org.principal.openClosed;
+package org.principal;
 
 public class AreaCalculator {
     public double calculateShape(Shape shape) {

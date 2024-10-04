@@ -1,4 +1,4 @@
-package org.principal.openClosed;
+package org.principal;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Main {
         System.out.printf("RectangleArea: %.2f\n", areaCalculator.calculateShape(rectangle));
         System.out.printf("RectanglePerimeter: %.2f\n", perimeterCalculator.calculatePerimeter(rectangle));
         Circle circle = new Circle(3);
-        System.out.printf("CircleArea: %.2f\n", circle.calculateArea());
-
+        System.out.printf("CircleArea: %.2f\n", areaCalculator.calculateShape(circle));
+        System.out.printf("CirclePerimeter: %.2f\n", perimeterCalculator.calculatePerimeter(circle));
     }
 }

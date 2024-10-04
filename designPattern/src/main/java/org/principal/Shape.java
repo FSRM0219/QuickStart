@@ -1,4 +1,4 @@
-package org.principal.openClosed;
+package org.principal;
 
 public interface Shape {
     double calculateArea();
